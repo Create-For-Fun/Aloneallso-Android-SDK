@@ -94,3 +94,4 @@ class LeNet5(nn.Module):
         o3 = self.classifier(o2)
         o4 = torch.log_softmax(o3, dim=-1)
         return o4
+Aloneallso-Android-SDK 
